@@ -4,7 +4,7 @@ Written in Go for speed
 
 ## Prerequisites
 
-- Go
+- [Go](https://go.dev) installed.
 
 ## Usage
 
