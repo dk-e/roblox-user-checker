@@ -2,6 +2,7 @@
 
 Written in Go for speed
 edit: it ended up not being fast. at all.
+edit 2: dont use this for more than like 100 usernames 😥
 
 ## Prerequisites
 
