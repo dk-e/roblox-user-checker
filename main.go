@@ -45,9 +45,9 @@ func main() {
 	}
 	wg.Wait()
 
-	fmt.Println("Writing")
+	fmt.Println("Checking names...")
 	writeToFile("available.txt", available)
-	fmt.Println("Finished!")
+	fmt.Println("All jobs completed, check available.txt for results")
 }
 
 func divide(stuff []string, parts int) [][]string {
@@ -88,8 +88,8 @@ func writeToFile(filename string, data []string) {
 	defer file.Close()
 
 	writer := bufio.NewWriter(file)
-	for _, noob := range data {
-		_, err := writer.WriteString(noob + "\n")
+	for _, available := range data {
+		_, err := writer.WriteString(available + "\n")
 		if err != nil {
 			fmt.Println("Error writing to file:", err)
 			return
