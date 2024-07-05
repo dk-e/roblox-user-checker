@@ -1,6 +1,7 @@
 # Roblox Username Checker
 
 Written in Go for speed
+edit: it ended up not being fast. at all.
 
 ## Prerequisites
 
